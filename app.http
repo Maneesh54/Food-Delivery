@@ -1,0 +1,13 @@
+get http://localhost:3000/deliveryCost/
+Content-Type: application/json
+
+{
+    "zone": "central", 
+    "organization_id": "005",
+    "total_distance": 17, 
+    "item_type": "non-perishable" 
+}
+###
+
+get http://localhost:3000/
+
